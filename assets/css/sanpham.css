@@ -1,0 +1,224 @@
+.info-sanpham--title {
+  background-color: var(--background-content);
+  position: relative;
+  border-radius: 6px;
+  padding: 0 0 8px 0;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.05);
+  margin: 6px 0;
+}
+.sale-product-item-body-sale-sanpham {
+  min-width: 30px;
+  padding: 20px 10px;
+  background-color: #f75050;
+  color: var(--text-color);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 2px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.sanpham-order {
+  padding: 0 15px;
+}
+.sanpham-title {
+  width: 100%;
+  padding: 20px 0 8px;
+  font-size: 24px;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+.sanpham-view {
+  display: flex;
+  padding: 8px 0;
+  border: 2px solid rgba(1,1,1, 0.5);
+  width: 70%;
+  border-radius: 8px;
+  align-items: center;
+}
+.sanpham-view-icon {
+  font-size: 2.2rem;
+  color: var(--text-color);
+
+  margin: 0 12px;
+}
+.sanpham-view-body {
+  display: flex;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+.sanpham-view-quality {
+  margin: 0 4px;
+  font-size: 1.6rem;
+}
+.sanpham-type {
+  display: flex;
+  margin: 12px 0;
+  font-size: 1.4rem;
+  align-items: center;
+  line-height: 1.4rem;
+  color: var(--text-color);
+}
+.sanpham-type-code {
+  padding: 0 6px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  margin-right: 6px;
+  color: var(--header-color);
+  font-weight: bold;
+}
+.sanpham-type-brand {
+  padding: 0 6px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  margin-right: 6px;
+  color: var(--header-color);
+  font-weight: bold;
+}
+.sanpham-type-status {
+  padding: 0 6px;
+  color: var(--header-color);
+  font-weight: bold;
+}
+.sanpham-reaction {
+  margin: 6px 0;
+}
+.sanpham-reaction-icon {
+  font-size: 1.5rem;
+  color: #fdd380;
+}
+.sanpham-reaction-view {
+  margin-left: 6px;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  line-height: 1.5px;
+}
+.sanpham-price {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.sanpham-price-sale {
+  padding: 4px 14px;
+  background-color: var(--background-main);
+  color: #f95146;
+  font-weight: bold;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+.sanpham-price-old {
+  margin-left: 8px;
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #9f968a;
+  text-decoration: line-through;
+}
+.sanpham-price-new {
+  margin-left: 8px;
+  font-size: 2.4rem;
+  line-height: 1.6;
+  color: #ff1a1a;
+}
+.sanpham-buy {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.sanpham-buy-quality {
+  border: 1px solid rgba(250, 250, 250, 0.342);
+  width: 35%;
+  display: flex;
+}
+.sanpham-buy-quality-minus {
+  width: 33.33333%;
+  padding: 14px 0;
+  border: none;
+  background-color: var(--background-main);
+  color: #ff1a1a;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.sanpham-buy-quality-total {
+  width: 33.33333%;
+  height: 100%;
+  text-align: center;
+  padding: 14px 0;
+  background-color: var(--background-content);
+  border: none;
+  font-size: 1.4rem;
+  color: #ff1a1a;
+}
+.sanpham-buy-quality-plus {
+  width: 33.3333%;
+
+  padding: 14px 0;
+  border: none;
+  background-color: var(--background-main);
+  color: #ff1a1a;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.sanpham-buy-button {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.sanpham-buy-button-btn {
+  width: 90%;
+  font-size: 2rem;
+  height: 48px;
+  background-color: var(--header-color);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.sanpham-buy-button-btn:hover {
+  background-color: #0e88da;
+}
+
+.info-sanpham--body {
+  background-color: var(--background-content);
+  position: relative;
+  border-radius: 6px;
+  padding: 0 0 8px 0;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.05);
+  margin: 6px 0;
+}
+
+.sanpham-specifications {
+  margin: 20px 0;
+  padding: 0 15px;
+}
+.specifications-heading {
+  padding: 20px;
+  color: var(--text-color);
+  font-size: 2rem;
+}
+.specifications-content {
+  width: 100%;
+  border: solid 1px rgba(1,1,1, 0.1);
+}
+.specifications-content-body {
+  display: flex;
+  border-bottom: solid 1px rgba(1,1,1, 0.1);
+}
+.specifications-content-title {
+  font-size: 1.4rem;
+  display: block;
+  flex: 1;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border-right: solid 1px rgba(1,1,1, 0.1);
+  color: var(--text-color);
+}
+.specifications-content-description {
+  font-size: 1.4rem;
+  display: block;
+  flex: 5;
+  padding: 12px;
+  text-align: left;
+  color: var(--text-color);
+  line-height: 1.4;
+}

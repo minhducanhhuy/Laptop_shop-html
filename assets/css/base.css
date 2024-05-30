@@ -1,0 +1,46 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #0f0f0f;
+  --header-color: #026db5;
+  --header-height: 72px;
+  --menu__product-height: 576px;
+  --background-main : #edeef2;
+  --background-content : #ffffff;
+
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.btn {
+  min-width: 124px;
+  height: 34px;
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4rem;
+}
+.btn.btn--primary {
+  min-width: 42px;
+  background-color: var(--header-color);
+  color: var(--white-color);
+}
+.btn.btn--primary:hover {
+  background-color: #037ecf;
+}
+.no-border {
+  border: none;
+}
